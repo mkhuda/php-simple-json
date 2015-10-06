@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 5.6.23, for Win32 (x86)
+-- MySQL dump 10.13  Distrib 5.6.23
 --
--- Host: 45.32.252.124    Database: ayo_posyandu
+-- Host: localhost    Database: ayo_posyandu
 -- ------------------------------------------------------
 -- Server version	5.5.44-0ubuntu0.14.04.1-log
 
