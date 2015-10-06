@@ -1,5 +1,8 @@
 <?php
 include 'koneksi.php';
+
+// Get vaksin data
+
 $idbayi = $_POST['id_bayi'];
 
 $query = "select bi.id_bayi, bi.nama_bayi, bi.tanggal_lahir, vi.id_vaksin, vi.jenis_vaksin, ki.tanggal_imunisasi from ayo_posyandu.kegiatan_imunisasi as ki 

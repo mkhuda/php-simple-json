@@ -1,4 +1,7 @@
 <?php
+
+// Login Proses with username and password params
+
 include 'koneksi.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
