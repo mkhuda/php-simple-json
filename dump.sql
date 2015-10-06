@@ -48,33 +48,6 @@ INSERT INTO `bayi` VALUES (31,'Yanti Madjid','2015-04-10','Perempuan','Cahaya Ra
 UNLOCK TABLES;
 
 --
--- Table structure for table `berita_pasang_baru`
---
-
-DROP TABLE IF EXISTS `berita_pasang_baru`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `berita_pasang_baru` (
-  `idberita_pasang_baru` int(11) NOT NULL AUTO_INCREMENT,
-  `id_perijinan_pasang_baru` int(5) DEFAULT NULL,
-  `status_slo` varchar(100) DEFAULT NULL,
-  `status_pasang` varchar(100) DEFAULT NULL,
-  `keterangan` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`idberita_pasang_baru`),
-  KEY `fk_berita_pasang_baru` (`id_perijinan_pasang_baru`)
-) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `berita_pasang_baru`
---
-
-LOCK TABLES `berita_pasang_baru` WRITE;
-/*!40000 ALTER TABLE `berita_pasang_baru` DISABLE KEYS */;
-/*!40000 ALTER TABLE `berita_pasang_baru` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `kegiatan_imunisasi`
 --
 
@@ -250,4 +223,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-10-06 14:25:37
+-- Dump completed on 2015-10-06 14:48:50
